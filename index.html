@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>App Academy HTML/CSS Assessment</title>
+  <link href="site.css" rel="stylesheet">
+</head>
+
+<body>
+  <form method="post" action="/pets">
+    <fieldset>
+      <div class="grid-container">
+
+        <div><label for="name">Name</label></div>
+        <div><input type="text" id="name" name="pet_name"></div>
+        <div><label for="type">Type</label></div>
+        <div>
+          <select id="type" name="pet_type">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="hamster">Hamster</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div><label for="bio">Biography</label></div>
+        <div><textarea id="bio" name="pet_bio"></textarea></div>
+        <div><label for="owner-email">Owner's Email</label></div>
+        <div><input type="email" name="pet_owner_email" id="owner-email"></div>
+        <div></div>
+        <div>
+          <button type="reset">reset</button>
+          <button type="submit" id="new-pet-submit-button">Create new pet</button>
+
+        </div>
+
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="card">
+    <img src="images/desert.jpg" alt="image of a desert" class="others">
+    <div class="container">
+      <img src="images/person-avatar.jpg" alt="image of developer" class="portrait">
+
+      <h2>Title goes here</h2>
+      <p>Secondary text </p>
+      <p>Greyhound divisively hello codely wonderfully marginally far upon excluding</p>
+    </div>
+
+  </div>
+</body>
+
+</html>
